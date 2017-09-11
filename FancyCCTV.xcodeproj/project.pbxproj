@@ -8,11 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		8511EEA21F6663A100485EDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8511EEA11F6663A100485EDB /* AppDelegate.swift */; };
-		8511EEA41F6663A100485EDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8511EEA31F6663A100485EDB /* ViewController.swift */; };
-		8511EEA71F6663A100485EDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8511EEA51F6663A100485EDB /* Main.storyboard */; };
 		8511EEA91F6663A100485EDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8511EEA81F6663A100485EDB /* Assets.xcassets */; };
 		8511EEAC1F6663A100485EDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8511EEAA1F6663A100485EDB /* LaunchScreen.storyboard */; };
 		8511EEB71F6663A100485EDB /* FancyCCTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8511EEB61F6663A100485EDB /* FancyCCTVTests.swift */; };
+		8511EEC71F66644F00485EDB /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8511EEC21F66644F00485EDB /* IJKMediaFramework.framework */; };
+		8511EEC81F66644F00485EDB /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8511EEC41F66644F00485EDB /* RootViewController.swift */; };
+		8511EEC91F66644F00485EDB /* LeftTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8511EEC61F66644F00485EDB /* LeftTableView.swift */; };
+		8511EECC1F6664BC00485EDB /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8511EECB1F6664BC00485EDB /* libstdc++.tbd */; };
+		8511EECE1F6664C400485EDB /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8511EECD1F6664C400485EDB /* VideoToolbox.framework */; };
+		8511EED01F6664C900485EDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8511EECF1F6664C900485EDB /* UIKit.framework */; };
+		8511EED21F6664D300485EDB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8511EED11F6664D300485EDB /* QuartzCore.framework */; };
+		8511EED41F6664DB00485EDB /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8511EED31F6664DB00485EDB /* OpenGLES.framework */; };
+		8511EED61F6664E300485EDB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8511EED51F6664E300485EDB /* MobileCoreServices.framework */; };
+		8511EED81F6664F000485EDB /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8511EED71F6664F000485EDB /* MediaPlayer.framework */; };
+		8511EEDA1F6664F700485EDB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8511EED91F6664F700485EDB /* libz.tbd */; };
+		8511EEDC1F66650100485EDB /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8511EEDB1F66650100485EDB /* libbz2.tbd */; };
+		8511EEDE1F66651C00485EDB /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8511EEDD1F66651C00485EDB /* CoreVideo.framework */; };
+		8511EEE01F66652300485EDB /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8511EEDF1F66652300485EDB /* CoreMedia.framework */; };
+		8511EEE21F66652B00485EDB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8511EEE11F66652B00485EDB /* CoreGraphics.framework */; };
+		8511EEE41F66653200485EDB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8511EEE31F66653200485EDB /* AVFoundation.framework */; };
+		8511EEE61F66653A00485EDB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8511EEE51F66653A00485EDB /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +43,29 @@
 /* Begin PBXFileReference section */
 		8511EE9E1F6663A100485EDB /* FancyCCTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FancyCCTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8511EEA11F6663A100485EDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8511EEA31F6663A100485EDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8511EEA61F6663A100485EDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8511EEA81F6663A100485EDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8511EEAB1F6663A100485EDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8511EEAD1F6663A100485EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8511EEB21F6663A100485EDB /* FancyCCTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FancyCCTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8511EEB61F6663A100485EDB /* FancyCCTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyCCTVTests.swift; sourceTree = "<group>"; };
 		8511EEB81F6663A100485EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8511EEC21F66644F00485EDB /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		8511EEC41F66644F00485EDB /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		8511EEC61F66644F00485EDB /* LeftTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftTableView.swift; sourceTree = "<group>"; };
+		8511EECB1F6664BC00485EDB /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		8511EECD1F6664C400485EDB /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		8511EECF1F6664C900485EDB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8511EED11F6664D300485EDB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8511EED31F6664DB00485EDB /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		8511EED51F6664E300485EDB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		8511EED71F6664F000485EDB /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		8511EED91F6664F700485EDB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		8511EEDB1F66650100485EDB /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		8511EEDD1F66651C00485EDB /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		8511EEDF1F66652300485EDB /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		8511EEE11F66652B00485EDB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8511EEE31F66653200485EDB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8511EEE51F66653A00485EDB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +73,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8511EEE61F66653A00485EDB /* AudioToolbox.framework in Frameworks */,
+				8511EEE41F66653200485EDB /* AVFoundation.framework in Frameworks */,
+				8511EEE21F66652B00485EDB /* CoreGraphics.framework in Frameworks */,
+				8511EEE01F66652300485EDB /* CoreMedia.framework in Frameworks */,
+				8511EEDE1F66651C00485EDB /* CoreVideo.framework in Frameworks */,
+				8511EEDC1F66650100485EDB /* libbz2.tbd in Frameworks */,
+				8511EEDA1F6664F700485EDB /* libz.tbd in Frameworks */,
+				8511EED81F6664F000485EDB /* MediaPlayer.framework in Frameworks */,
+				8511EED61F6664E300485EDB /* MobileCoreServices.framework in Frameworks */,
+				8511EED41F6664DB00485EDB /* OpenGLES.framework in Frameworks */,
+				8511EED21F6664D300485EDB /* QuartzCore.framework in Frameworks */,
+				8511EED01F6664C900485EDB /* UIKit.framework in Frameworks */,
+				8511EECE1F6664C400485EDB /* VideoToolbox.framework in Frameworks */,
+				8511EECC1F6664BC00485EDB /* libstdc++.tbd in Frameworks */,
+				8511EEC71F66644F00485EDB /* IJKMediaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +107,7 @@
 				8511EEA01F6663A100485EDB /* FancyCCTV */,
 				8511EEB51F6663A100485EDB /* FancyCCTVTests */,
 				8511EE9F1F6663A100485EDB /* Products */,
+				8511EECA1F6664BC00485EDB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,8 +124,9 @@
 			isa = PBXGroup;
 			children = (
 				8511EEA11F6663A100485EDB /* AppDelegate.swift */,
-				8511EEA31F6663A100485EDB /* ViewController.swift */,
-				8511EEA51F6663A100485EDB /* Main.storyboard */,
+				8511EEC11F66644F00485EDB /* Frameworks */,
+				8511EEC31F66644F00485EDB /* ViewControllers */,
+				8511EEC51F66644F00485EDB /* Views */,
 				8511EEA81F6663A100485EDB /* Assets.xcassets */,
 				8511EEAA1F6663A100485EDB /* LaunchScreen.storyboard */,
 				8511EEAD1F6663A100485EDB /* Info.plist */,
@@ -94,6 +141,51 @@
 				8511EEB81F6663A100485EDB /* Info.plist */,
 			);
 			path = FancyCCTVTests;
+			sourceTree = "<group>";
+		};
+		8511EEC11F66644F00485EDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8511EEC21F66644F00485EDB /* IJKMediaFramework.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		8511EEC31F66644F00485EDB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8511EEC41F66644F00485EDB /* RootViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8511EEC51F66644F00485EDB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8511EEC61F66644F00485EDB /* LeftTableView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8511EECA1F6664BC00485EDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8511EEE51F66653A00485EDB /* AudioToolbox.framework */,
+				8511EEE31F66653200485EDB /* AVFoundation.framework */,
+				8511EEE11F66652B00485EDB /* CoreGraphics.framework */,
+				8511EEDF1F66652300485EDB /* CoreMedia.framework */,
+				8511EEDD1F66651C00485EDB /* CoreVideo.framework */,
+				8511EEDB1F66650100485EDB /* libbz2.tbd */,
+				8511EED91F6664F700485EDB /* libz.tbd */,
+				8511EED71F6664F000485EDB /* MediaPlayer.framework */,
+				8511EED51F6664E300485EDB /* MobileCoreServices.framework */,
+				8511EED31F6664DB00485EDB /* OpenGLES.framework */,
+				8511EED11F6664D300485EDB /* QuartzCore.framework */,
+				8511EECF1F6664C900485EDB /* UIKit.framework */,
+				8511EECD1F6664C400485EDB /* VideoToolbox.framework */,
+				8511EECB1F6664BC00485EDB /* libstdc++.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,7 +275,6 @@
 			files = (
 				8511EEAC1F6663A100485EDB /* LaunchScreen.storyboard in Resources */,
 				8511EEA91F6663A100485EDB /* Assets.xcassets in Resources */,
-				8511EEA71F6663A100485EDB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,8 +292,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8511EEA41F6663A100485EDB /* ViewController.swift in Sources */,
+				8511EEC81F66644F00485EDB /* RootViewController.swift in Sources */,
 				8511EEA21F6663A100485EDB /* AppDelegate.swift in Sources */,
+				8511EEC91F66644F00485EDB /* LeftTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,14 +317,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8511EEA51F6663A100485EDB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8511EEA61F6663A100485EDB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8511EEAA1F6663A100485EDB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -342,6 +426,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A9U23ZY9CQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FancyCCTV/Frameworks",
+				);
 				INFOPLIST_FILE = FancyCCTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.youbo.FancyCCTV;
@@ -355,6 +443,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A9U23ZY9CQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FancyCCTV/Frameworks",
+				);
 				INFOPLIST_FILE = FancyCCTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.youbo.FancyCCTV;
